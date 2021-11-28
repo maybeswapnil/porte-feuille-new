@@ -37,7 +37,7 @@ var rellax = new Rellax('.rellax');
 
 
       <div className='image-lobby'>
-        <img className='image-file' src='https://images.pexels.com/photos/7367207/pexels-photo-7367207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' />
+        <img className='image-file' id='mobile-hide' src='https://images.pexels.com/photos/7367207/pexels-photo-7367207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' />
         <div>
         <h4 id='para-one'>Projects</h4>
            
@@ -103,7 +103,7 @@ JS Frameworks: React, Framer-Motion (Animation).</p>
             <h4 id='para-one'>Resolution 	3456px x 5184px</h4>
             <h4 id='para-one'>Taken at 	November 29, 2020 10:33 pm</h4>           
         </div>
-        <img className='image-file-two' src='https://images.pexels.com/photos/6022539/pexels-photo-6022539.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' />
+        <img className='image-file-two' id='mobile-hide' src='https://images.pexels.com/photos/6022539/pexels-photo-6022539.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' />
         
 
         

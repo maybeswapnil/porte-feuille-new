@@ -415,6 +415,75 @@ z-index: 19;
   h1 {
     font-size:24px;
   }
+  #mobile-hide {
+      display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  
+  #mobile-hide {
+      display: none;
+  }
+
+  .mobile-hide {
+      display: none;
+  }
+
+  .main-title {
+    margin-left: 0vmin;
+    width: 20vmin;
+  }
+
+  #para-one {
+    width: 80vmin;
+    font-size: 2vmin;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+  }
+
+  .para-two-bot-head {
+    width: 100% !important;
+    font-size: 4vmin ;
+    margin-left: 47vmin  !important;
+    margin-top: 90vmin !important;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+  }
+
+  .para-two-bot {
+    width: 100% !important;
+    font-size: 4vmin ;
+    margin-left: -7vmin  !important;
+    margin-top: -40vmin !important;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+  }
+
+  #text-on-phone {
+    margin-left: 59vmin;
+    font-size: 3vmin;
+  }
+
+  .phone-image-two {
+    width: 60vmin !important;
+    margin-top: 70vmin  !important;
+    margin-left:69vmin !important;
+  }
+  .phone-image {
+    width: 60vmin !important;
+    margin-top: 70vmin  !important;
+    margin-left:69vmin !important;
+  }
+
+  .phone-mountain {
+    margin-top: 90vmin !important;
+  }
+
+ 
+
+  .phone-image-two-scuba {
+    width: 60vmin !important;
+    margin-top: 70vmin  !important;
+    margin-left: 0vmin !important;
+  }
 }
 
 
