@@ -3,8 +3,19 @@ import Back from './Back';
 import Footer from './Footer.js';
 import FullPage from './FullPage.js';
 import resume from './resumedoc.pdf';
+import axios from 'axios';
 
 function App() {
+
+  // const [ip, setIP] = useState('');
+
+  // const getData = async () => {
+  //   const res = await axios.get('https://geolocation-db.com/json/')
+  //   console.log(res.data);
+  //   setIP(res.data.IPv4)
+  // }
+
+
   return (
     <div className="App">
       <div className='top-list' style={{zIndex: 5}}>
