@@ -1,14 +1,26 @@
-
+import github from './github.png'
 function Footer() {
   return (
     <div>
     
     <footer className="site-footer" id='contact'>
+
+      <div className="social-media">
+
+        <img src={github} />
+      </div>
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-md-6">
-            <h6>About</h6>
-            <p className="text-justify">Strong in design and integration with intuitive problem-solving skills. Proficient in Java. Passionate about implementing and launching new projects. Seeking an opportunity in an esteemed organization with increasing potential for growth and development, while offering flexibility to utilize my skills and abilities, and render my services.</p>
+            <h6>Description</h6>
+            <p className="text-justify">Built with react js and react scroll motion frane work uses express as a backend framework to store form information.</p>
+
+            <li>React</li>
+            <li>Express</li>
+            <li>React Scroll Motion</li>
+
+            <p className="text-justify">Version 1.0</p>
+
           </div>
 
           {/* <div className="col-xs-6 col-md-3">
@@ -23,7 +35,7 @@ function Footer() {
             </ul>
           </div> */}
     <br />
-          <div className="col-xs-6 col-md-3">
+          {/* <div className="col-xs-6 col-md-3">
             <h6>Quick Links</h6>
             <ul className="footer-links">
               <li><a href="">Contact Me</a></li>
@@ -31,18 +43,17 @@ function Footer() {
               <li><a href="">Privacy Policy</a></li>
               <li><a href="">Sitemap</a></li>
             </ul>
-          </div>
+          </div> */}
         </div>
     <br />
 
-        <hr/>
       </div>
       
       <div className="container">
         <div className="row">
           <div className="col-md-8 col-sm-6 col-xs-12">
             <p className="copyright-text">Copyright &copy; 2021 All Rights Reserved by {' '} 
-         <a href="#">swapnil</a>.
+         <a href="#">Swapnil</a>.
             </p>
           </div>
     <br />

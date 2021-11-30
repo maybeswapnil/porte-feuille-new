@@ -9,6 +9,7 @@ import scuba from './scuba.png';
 import mount from './mount.png';
 import plane2 from './plane2.png';
 import street from './street.png';
+import Form from "./form";
 const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
 const FadeUp = batch(Fade(), Move(), Sticky());
 function Back() {
@@ -41,9 +42,17 @@ var rellax = new Rellax('.rellax');
                 </ScrollPage>
 
                 <ScrollPage page={1} className='mobile-hide'>
-                    <Animator animation={batch(Fade(), Sticky(), MoveOut(-1100, -10))}>
+                    <Animator animation={batch(Fade(), Sticky(), MoveOut(-6100, -90))}>
                     
-                    <img id='main-images' className='mobile-hide' style={{marginTop: '70vmin', marginLeft:'5vmin',width: '55vmin', opacity:'0.4'}} src={plane2} />
+                    <img id='main-images' className='mobile-hide' style={{marginTop: '70vmin', marginLeft:'435vmin',width: '55vmin', opacity:'0.4'}} src={plane2} />
+                    </Animator>
+                </ScrollPage> 
+
+                <ScrollPage page={1} className='mobile-hide'>
+                    <Animator animation={batch(Fade(), Sticky(), MoveOut(-100, -10))}>
+                        
+                             <h1 id='mobile-hide' className="about-class" style={{fontSize:'9vmin', marginTop:"-20vmin", marginLeft:"10vmin"}}>About</h1>
+                    
                     </Animator>
                 </ScrollPage> 
 
@@ -85,15 +94,25 @@ var rellax = new Rellax('.rellax');
                         <p id='text-on-phone'>Want to dive in? if yes scroll down</p>
                     </span>
                     <img id='main-images' style={{marginTop: '0vmin', marginLeft:'105vmin',width: '55vmin'}} src={clound2} />
-                    <img id='main-images' style={{marginTop: '10vmin', marginLeft:'55vmin',width: '55vmin', zIndex:'-9'}} src={clound3} />
+                    <img id='main-images' style={{marginTop: '10vmin', marginLeft:'55vmin',width: '55vmin'}} src={clound3} />
 
                     {/* <img id='main-images' style={{width: '5vmin'}} src={logo} /> */}
 
                     </Animator>
                 </ScrollPage>
 
-
                 <ScrollPage page={10}>
+                    <Animator animation={FadeUp}>
+                    {/* <span style={{ fontSize: "40px" }}>I'm FadeUp</span> */}
+                    <Form />
+                   
+
+
+                    </Animator>
+                </ScrollPage>
+
+
+                <ScrollPage page={14}>
                     <Animator animation={FadeUp}>
                     {/* <span style={{ fontSize: "40px" }}>I'm FadeUp</span> */}
                     <span style={{ fontSize: "50px",marginTop: '0px', marginLeft:'4vmin',width: '55vmin'}} id='mobile-hide'>
@@ -139,7 +158,7 @@ var rellax = new Rellax('.rellax');
                     </Animator>
                 </ScrollPage>
 
-                <ScrollPage page={10}>
+                <ScrollPage page={14}>
                     <Animator animation={FadeUp}>
                     <div class="ocean">
                         <div class="bubble bubble--1"></div>
@@ -163,7 +182,7 @@ var rellax = new Rellax('.rellax');
 
             <ScrollPage page={7}>
                     <Animator animation={FadeUp}>
-                    <img id='main-images' style={{marginTop: '90vmin', marginLeft:'-50vmin',width: '250%', zIndex:'-9'}} className='mobile-hide' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg' />
+                    <img id='main-images' style={{marginTop: '90vmin', marginLeft:'-50vmin',width: '250%'}} className='mobile-hide' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg' />
                    
                     
                     </Animator>
@@ -171,7 +190,7 @@ var rellax = new Rellax('.rellax');
 
                 <ScrollPage page={7}>
                 <Animator animation={batch(Fade(), Sticky(), MoveOut(900, -70))}>
-                    <img id='main-images' style={{marginTop: '55vmin', marginLeft:'-50vmin',width: '60vmin', zIndex:'-9'}} className='mobile-hide' src={boat} />
+                    <img id='main-images' style={{marginTop: '55vmin', marginLeft:'-50vmin',width: '60vmin'}} className='mobile-hide' src={boat} />
                    
                    
                    

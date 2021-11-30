@@ -110,11 +110,19 @@ h1 {
 
 .about-me {
   margin-top: 80vmin;
-  margin-left: 0vmin;
-  border-left: 2px solid black;
+  margin-left: -30vmin;
   padding-left: 90px;
-  display: flex;
-  display: none;
+}
+
+.description {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+ font-size: 2vmin;
+  padding-left: 15vmin;
+  padding-top: -4vmin;
+}
+
+.about-class {
+  margin-left: 7vmin !important;
 }
 
 @media (min-width:767px)
@@ -122,8 +130,7 @@ h1 {
   .about-me {
     margin-top: 80vmin;
     margin-left: 40vmin;
-    border-left: 2px solid black;
-    padding-left: 90px;
+    padding-left: -0vmin;
     display: flex;
   }
 
@@ -133,13 +140,15 @@ h1 {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
   width: 90vmin;
   padding-left: 15vmin;
-  padding-top: -4vmin;
 }
 
 .main-about {
   font-size: 2vmin;
 }
 
+.about-class {
+  margin-left: -60vmin !important;
+}
 
 .not-me {
   font-family: 'Teko', sans-serif;
@@ -147,6 +156,9 @@ h1 {
   margin-left: -25vmin;
 }
 
+ScrollPage {
+  z-index: 1;
+}
 
 
 .content {
@@ -299,10 +311,11 @@ body {
   }
 }
 .ocean {
-  margin-top: -1200vmimn;
+  
   position: relative;
   width: 100vw;
   height: 100vh;
+  z-index: -3;
 }
 
 .bubble {
@@ -435,4 +448,64 @@ body {
   animation-delay: -10.5s;
   animation-duration: 19s;
   opacity: 0.3;
+}
+
+.email-class {
+  height: 3vmin;
+  padding: 1vmin;
+  font-size: 2vmin;
+  border-color: white;
+}
+
+.message-class {
+  height: 9vmin;
+  padding: 1vmin;
+  font-size: 1.5vmin;
+  border-color: white;
+  box-shadow: none;
+}
+
+.button-2 {
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2vmin;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 2vmin 4vmin;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.email-form-info {
+  font-size: 3vmin;
+}
+
+
+.social-media {
+  position: fixed;
+  width: 1vmin;
+  margin-top: 13vmin;
+  margin-left: 1vmin;
+}
+
+#github {
+  width: 3vmin;
+  padding: 2vmin;
+  z-index: 190;
+}
+
+#up {
+  z-index: 99;
 }

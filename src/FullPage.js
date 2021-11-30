@@ -1,6 +1,8 @@
 import Rellax from "rellax";
 import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveIn, MoveOut, Sticky, StickyIn, ZoomIn } from "react-scroll-motion";
 
+
+
 const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
 const FadeUp = batch(Fade(), Move(), Sticky());
 function FullPage() {
@@ -11,6 +13,10 @@ var rellax = new Rellax('.rellax');
 
   return (
     <div className="Full-Page">
+
+
+
+     
       <div className='full-description-div'>
         
       <h1 style={{color:'white', marginTop:'0vmin', position:"absolute"}} id='home'>.</h1>
@@ -26,12 +32,12 @@ var rellax = new Rellax('.rellax');
       <h1 style={{color:'white', marginTop:'35vmin', position:"absolute"}} id='about'>.</h1>
 
       <div className='about-me'>
-                        <h2 className='not-me' id='about'>About Me</h2>
+                        {/* <h2 className='not-me' id='about'>About Me</h2> */}
                         <p className='description'>Creative Fullstack Developer - Designer<br/>Learning German right now.<br /> Strong in design and integration with intuitive problem-solving skills. Proficient in Java. Passionate about implementing and launching new projects. Seeking an opportunity in an esteemed organization with increasing potential for growth and development.</p>
                     </div>
 
       <h1 style={{color:'white', marginTop:'70vmin', position:"absolute"}} id='projects'>.</h1>
-      <h1 style={{color:'white', marginTop:'285vmin', position:"absolute"}} id='contact'>.</h1>
+      <h1 style={{color:'white', marginTop:'275vmin', position:"absolute"}} id='contact'>.</h1>
       <h1 style={{color:'white', marginTop:'155vmin', position:"absolute"}} id='skills'>.</h1>
       <h1 style={{color:'white', marginTop:'495vmin', position:"absolute"}} id='under-water-dive'>.</h1>
 
@@ -85,19 +91,19 @@ var rellax = new Rellax('.rellax');
 
         <h4 id='para-one'>Certifications</h4>
             <p id='para-one'>
-Responsive Web Design (freeCodeCamp)- Worked with React JS, D3JS to implement dynamic UI
-Java Certification (HackerRank) 
-JavaScript Algorithms and Data Structures (freeCodeCamp) 
-Git (Percipio).</p>
+                Responsive Web Design (freeCodeCamp)- Worked with React JS, D3JS to implement dynamic UI
+                Java Certification (HackerRank) 
+                JavaScript Algorithms and Data Structures (freeCodeCamp) 
+                Git (Percipio).</p>
 
-<h4 id='para-one'>Skills</h4>
-            <p id='para-one'>Databases: MySQL, MongoDB
-Other Frameworks: Spring (Boot, REST, MVC, JPA) 
-Hands-on Experience: Git, AWS (EC2, RDS, S3), GitHub, Netlify
-Programming Languages: Java (Intermediate), JavaScript (Intermediate)
-RDMS Development and SQL 
-API Design and Development: Express, Node
-JS Frameworks: React, Framer-Motion (Animation).</p>
+                <h4 id='para-one'>Skills</h4>
+                            <p id='para-one'>Databases: MySQL, MongoDB
+                Other Frameworks: Spring (Boot, REST, MVC, JPA) 
+                Hands-on Experience: Git, AWS (EC2, RDS, S3), GitHub, Netlify
+                Programming Languages: Java (Intermediate), JavaScript (Intermediate)
+                RDMS Development and SQL 
+                API Design and Development: Express, Node
+                JS Frameworks: React, Framer-Motion (Animation).</p>
             <h4 id='para-one'>Lens 	55.0mm ƒ/5.6 0.002s ISO 400</h4>
             <h4 id='para-one'>Size 	4.18 MB</h4>
             <h4 id='para-one'>Resolution 	3456px x 5184px</h4>
