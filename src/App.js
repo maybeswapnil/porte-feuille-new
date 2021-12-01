@@ -7,17 +7,42 @@ import axios from 'axios';
 import github from './github.png'
 import linkedin from './linkedin.png'
 
+import {useEffect, React} from 'react';
+
 
 import stackoverflow from './stackoverflow.png'
 function App() {
 
-  // const [ip, setIP] = useState('');
+  
 
-  // const getData = async () => {
-  //   const res = await axios.get('https://geolocation-db.com/json/')
-  //   console.log(res.data);
-  //   setIP(res.data.IPv4)
-  // }
+  const getData = async () => {
+    try {
+      const res = await axios.get('https://geolocation-db.com/json/')
+      console.log(res.data)
+      mongo(res.data)
+    } catch(e) {
+      console.log(e)
+    }
+  
+  }
+
+  const mongo = async (x) => {
+    const requestOptions = {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(x)
+      };
+      try {
+        fetch('https://new-api-name.herokuapp.com/register/', requestOptions).then((response) => console.log(response))
+      } catch(e) {
+          console.log(e)
+      }
+      }
+
+      useEffect(() => {
+        getData();
+      }, []);
+
 
 
   return (
@@ -32,7 +57,7 @@ function App() {
           <ul className='main-list'>
               <li className='main-title'><a href='#home'>Porte-Feuille</a></li>
               <div className='main-float-right'>
-                  <li><a href='#about' className='main-list-underline'>About</a></li>
+                  <li><a href='#about' className='main-list-underline' >About</a></li>
                   <li><a href='#projects' className='main-list-underline'>Projects</a></li>
                   <li><a href='#skills' id='mobile-hide' className='main-list-underline'>Skills</a></li>
                   {/* <li><a href='#contact' id='mobile-hide' className='main-list-underline'>Contact</a></li> */}

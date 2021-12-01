@@ -12,6 +12,7 @@
     "react-scroll-motion": "^0.2.1",
     "relax": "^0.1.1",
     "rellax": "^1.12.1",
+    "three": "^0.135.0",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
