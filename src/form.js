@@ -52,14 +52,30 @@ function Form() {
 
   return (
     <div className="form" id="mobile-hide">
-            <p className="email-form-info">Provide info to get regular updates</p>
-            <input style={{zIndex:100, width:'40vmin', borderColor:{color}}} className="email-class" type="email" placeholder="enter email" onChange={event => setEmail(event.target.value)}/>
+            {/* <p className=".form__label">Provide info to get regular updates</p>
+            <br/>
+
+            <input className="form__field" type="email" placeholder="enter email"  required />
             <br/>
             <br/>
-            <input style={{zIndex:100, width:'40vmin', borderColor:{color}}} type="textbox" className="message-class" placeholder="type message" onChange={event => setMessage(event.target.value)}/>
+            <br/>
+            <input className="form__field" type="text" placeholder="type message" required />
             <br/>
             <br/>
-            <button class="button-2" role="button" onClick={SubmitData}>Submit</button>
+            <br/>
+            <br/>
+            <button class="button-2" role="button" onClick={SubmitData} href='#home'>Submit</button> */}
+
+            <input type="text" name="name" className="question" id="nme" onChange={event => setEmail(event.target.value)} required autocomplete="off" />
+            <label for="nme"><span>What's your Email?</span></label>
+            <br/>
+            <br/>
+            <textarea name="message" rows="2" className="question" id="msg" onChange={event => setMessage(event.target.value)}  required autocomplete="off"></textarea>
+            <label for="msg"><span>What's your message?</span></label>
+            <br/>
+            <br/>
+            <br/>
+            <a href='#home'><button class="button-2" role="button" onClick={SubmitData} >Submit</button></a>
     </div>
   );
 }
