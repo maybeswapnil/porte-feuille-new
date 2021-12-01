@@ -15,30 +15,39 @@ function Form() {
     const res = await axios.get('https://geolocation-db.com/json/')
     console.log(res.data);
     setIP(res.data.IPv4)
-    const str = CircularJSON.stringify({
+    const str = {
         email: email,
         message: message,
+        time: "12-10-2021T12:33:12",
         userinfo: {
             ip: ip
         }
-    });
+    }
+    mongo(str)
+      console.log(str)
 
     setdata(str)
   }
 
   const SubmitData = () => {
-            getData() 
-            // const requestOptions = {
-            //     method: 'POST',
-            //     headers: { 'Content-Type': 'application/json' },
-            //     body: JSON.stringify(JSON.parse(data))
-            // };
-            // try {
-            //     fetch('http://localhost:8000/portefeuille/', requestOptions).then((response) => console.log(response))
-            // } catch(e) {
-            //     console.log(e)
-            // }
+            getData()         
   }
+
+  const mongo = async (x) => {
+    const requestOptions = {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(x)
+      };
+      try {
+        fetch('https://new-api-name.herokuapp.com/portefeuille', requestOptions).then((response) => console.log(response))
+      } catch(e) {
+          console.log(e)
+      }
+      }
+
+     
+
 
 
   return (
