@@ -59,8 +59,8 @@ function App() {
               <div className='main-float-right'>
                   <li><a href='#about' className='main-list-underline' >About</a></li>
                   <li><a href='#projects' className='main-list-underline'>Projects</a></li>
-                  <li><a href='#skills' id='mobile-hide' className='main-list-underline'>Skills</a></li>
-                  {/* <li><a href='#contact' id='mobile-hide' className='main-list-underline'>Contact</a></li> */}
+                  {/* <li><a href='#skills' id='mobile-hide' className='main-list-underline'>Skills</a></li> */}
+                  <li><a href='#contact' id='mobile-hide' className='main-list-underline'>Contact</a></li>
                   <li><a href='#under-water-dive' id='mobile-hide' className='main-list-underline'>Take a under water dive</a></li>
                   <li><a href={resume} download="swapnil-resume.pdf">Download Résumé
             </a></li>

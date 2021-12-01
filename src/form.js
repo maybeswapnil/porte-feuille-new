@@ -75,7 +75,7 @@ function Form() {
             <br/>
             <br/>
             <br/>
-            <a href='#home'><button class="button-2" role="button" onClick={SubmitData} >Submit</button></a>
+            <a href='#home' id=""><button class="button-2" role="button" onClick={SubmitData}  >Submit</button></a>
     </div>
   );
 }

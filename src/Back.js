@@ -112,10 +112,10 @@ var rellax = new Rellax('.rellax');
                 </ScrollPage>
 
 
-                <ScrollPage page={14}>
+                <ScrollPage page={12}>
                     <Animator animation={FadeUp}>
                     {/* <span style={{ fontSize: "40px" }}>I'm FadeUp</span> */}
-                    <span style={{ fontSize: "50px",marginTop: '0px', marginLeft:'4vmin',width: '55vmin'}} id='mobile-hide'>
+                    <span style={{ fontSize: "50px",marginTop: '0px', marginLeft:'4vmin',width: '55vmin'}} id=''>
                     there is no end, this story will be updated
                     </span>
                    
@@ -158,7 +158,7 @@ var rellax = new Rellax('.rellax');
                     </Animator>
                 </ScrollPage>
 
-                <ScrollPage page={14}>
+                <ScrollPage page={12}>
                     <Animator animation={FadeUp}>
                     <div class="ocean">
                         <div class="bubble bubble--1"></div>

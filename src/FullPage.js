@@ -37,7 +37,7 @@ var rellax = new Rellax('.rellax');
                     </div>
 
       <h1 style={{color:'white', marginTop:'70vmin', position:"absolute"}} id='projects'>.</h1>
-      <h1 style={{color:'white', marginTop:'275vmin', position:"absolute"}} id='contact'>.</h1>
+      <h1 style={{color:'white', marginTop:'810vmin', position:"absolute"}} id='contact'>.</h1>
       <h1 style={{color:'white', marginTop:'155vmin', position:"absolute"}} id='skills'>.</h1>
       <h1 style={{color:'white', marginTop:'495vmin', position:"absolute"}} id='under-water-dive'>.</h1>
 
