@@ -55,23 +55,12 @@ var rellax = new Rellax('.rellax');
                   It is a simple multiplayer Interface uses React JS as Front End. Used Framer-Motion for animating the page. (React JS/Framer-Motion)
                   Restful API made using Spring Boot and Hibernate ORM for data mapping, provides a safe authentication to the app and is capable of running on multiple sessions. 
                   Deployed on AWS EC2 instance. (Spring: 5.3.6, Java 8, MySQL) </p>
-            
-
-
-
             <h4 id='para-one'>Lens 	4.38mm ƒ/1.7 0.000937s ISO 88</h4>
             <h4 id='para-one'>Size 	4.18 MB</h4>
             <h4 id='para-one'>Resolution 	3024px x 4032px</h4>
             <h4 id='para-one'>Camera Pixel 4a</h4>
             <h4 id='para-one'>Software 	Snapseed 2.19.280302127</h4>
-            <h4 id='para-one'>Taken at 	March 29, 2021 5:29 pm</h4>    
-
-
-             
-
-
-
-                          
+            <h4 id='para-one'>Taken at 	March 29, 2021 5:29 pm</h4>             
         </div>
         
       </div>

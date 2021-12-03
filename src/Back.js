@@ -9,14 +9,61 @@ import scuba from './scuba.png';
 import mount from './mount.png';
 import plane2 from './plane2.png';
 import street from './street.png';
+import bee from './bee.png';
 import Form from "./form";
+
+import {React, useEffect, setState, useState} from 'react'
+
 const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
 const FadeUp = batch(Fade(), Move(), Sticky());
+
+
 function Back() {
+
+    const [x, setX] = useState(2)
+    const [y, setY] = useState(3)
+
+    const [x2, setX2] = useState(2)
+    const [y2, setY2] = useState(3)
+
+    const [xo, setXo] = useState(2)
+    const [yo, setYo] = useState(3)
+
+    const [x2o, setX2o] = useState(2)
+    const [y2o, setY2o] = useState(3)
   
 
 var rellax = new Rellax('.rellax');
 
+
+        // const rand = () => {
+        //     setInterval(() =>{
+        //         var dx = Math.floor(Math.random() * (1920 - 10 + 1) + 10)
+        //         var dy = Math.floor(Math.random() * (1080 - 10 + 1) + 10)
+
+        //         while(dx<x) {
+        //             setTimeout(() => {
+        //                 setX(x-1)
+        //                 x=x-100
+        //             }, 1000)
+        //         }
+
+        //         while(dx>x) {
+        //             setTimeout(() => {
+        //                 setX(x++)
+        //                 x=x+100
+        //             }, 1000)
+        //         }
+
+        //         setX2(Math.floor(Math.random() * (1920 - 10 + 1) + 10))
+        //         setY2(Math.floor(Math.random() * (1080 - 10 + 1) + 10))
+        //     }, 10000)
+        // }
+
+        
+    //   useEffect(() => {
+    //     rand();
+    //   }, []);
 
   return (
       <div>
@@ -296,6 +343,27 @@ var rellax = new Rellax('.rellax');
                 <ScrollPage page={7}>
                     <Animator animation={FadeUp}>
                     <p id='para-two' className='para-two-bot' style={{marginTop: '-10vmin', marginLeft:'-60vmin',width: '55vmin', zIndex:'-9'}} >As you would have noticed from the above story, that I'm a professional web developer, I have in depth knowledge of React, Express</p>
+                    </Animator>
+                </ScrollPage>
+
+
+                <ScrollPage page={15}>
+                    <Animator animation={FadeUp}>
+                    <div class="ocean">
+                        <div class="point point--1"></div>
+                        <div class="point point--2"></div>
+                        <div class="point point--3"></div>
+                        <div class="point point--4"></div>
+                        <div class="point point--5"></div>
+                        <div class="point point--6"></div>
+                        <div class="point point--7"></div>
+                        <div class="point point--8"></div>
+                        <div class="point point--9"></div>
+                        <div class="point point--10"></div>
+                        <div class="point point--11"></div>
+                        <div class="point point--12"></div>
+                        {/* <svg width="1920" height="1080"><line x1={x} y1={y} x2={x2} y2={y2} stroke="black"/></svg> */}
+                    </div>
                     </Animator>
                 </ScrollPage>
 

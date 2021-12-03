@@ -286,6 +286,7 @@ li a {
 
 #para-one {
   width: 60vmin;
+  font-size: 1.6vmin;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
 }
 
@@ -489,6 +490,130 @@ z-index: 19;
 .form {
   z-index: 10;
   padding: -10vmin;
+}
+
+
+.point {
+  width: 5px;
+  height: 20px;
+  border-radius: 1%;
+  border-radius: 1%;
+  position: absolute;
+  background-color: black;
+  bottom: -30px;
+  opacity: 0.3;
+  animation: point 15s ease-in-out infinite,
+    sideWays 4s ease-in-out infinite alternate;
+}
+
+@keyframes point {
+  0% {
+    transform: translateY(0%);
+    transform: translateX(0%);
+
+    opacity: 0.06;
+  }
+  100% {
+    transform: translateY(-120vh);
+  }
+}
+
+@keyframes sideWays {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 200px;
+  }
+}
+
+.point--1 {
+  left: 10%;
+  animation-delay: 0.5s;
+  animation-duration: 16s;
+  opacity: 0.2;
+}
+
+
+
+.point--2 {
+  left: 60%;
+  animation-delay: 0.5s;
+  animation-duration: 12s;
+  opacity: 0.2;
+}
+.point--3 {
+  left: 80%;
+  animation-delay: 0.5s;
+  animation-duration: 16s;
+  opacity: 0.6;
+}
+
+
+.point--4 {
+  left: 70%;
+  animation-delay: 0.5s;
+  animation-duration: 26s;
+  opacity: 0.2;
+}
+
+.point--5 {
+  left: 80%;
+  animation-delay: 0.5s;
+  animation-duration: 16s;
+  opacity: 0.2;
+}
+.point--6 {
+  left: 80%;
+  animation-delay: 0.5s;
+  animation-duration: 16s;
+  opacity: 0.2;
+}
+
+.point--7 {
+  left: 13%;
+  animation-delay: 0.5s;
+  animation-duration: 12s;
+  opacity: 0.2;
+}
+
+.point--8 {
+  left: 12%;
+  animation-delay: 0.5s;
+  animation-duration: 16s;
+  opacity: 0.2;
+}
+
+.point--9 {
+  left: 80%;
+  animation-delay: 0.5s;
+  animation-duration: 16s;
+  opacity: 0.2;
+}
+
+.point--10 {
+  left: 80%;
+  animation-delay: 0.5s;
+  animation-duration: 16s;
+  opacity: 0.1;
+}
+
+.point--11 {
+  left: 70%;
+  animation-delay: 0.5s;
+  animation-duration: 16s;
+  opacity: 0.8;
+}
+
+.point--12 {
+  left: 20%;
+  animation-delay: 0.5s;
+  animation-duration: 16s;
+  opacity: 0.4;
+}
+
+line {
+ transition-duration: 1000ms;
 }
 
 
