@@ -137,8 +137,8 @@ var rellax = new Rellax('.rellax');
                 <ScrollPage page={5}>
                     <Animator animation={FadeUp}>
                     {/* <span style={{ fontSize: "40px" }}>I'm FadeUp</span> */}
-                    <span style={{ fontSize: "50px",marginTop: '20vmin', marginLeft:'4vmin',width: '55vmin'}} >
-                        <p id='text-on-phone'>Want to dive in? if yes scroll down</p>
+                    <span style={{ fontSize: "1.8vmin",marginTop: '20vmin', marginLeft:'4vmin',width: '55vmin'}} >
+                        <p id='text-on-phone' style={{ fontSize: "2.8vmin"}}>Want to dive in? if yes scroll down</p>
                     </span>
                     <img id='main-images' style={{marginTop: '0vmin', marginLeft:'105vmin',width: '55vmin'}} src={clound2} />
                     <img id='main-images' style={{marginTop: '10vmin', marginLeft:'55vmin',width: '55vmin'}} src={clound3} />
@@ -298,7 +298,7 @@ var rellax = new Rellax('.rellax');
                     <div  id='hyper-div' style={{ fontSize: "50px",marginTop: '-30vmin', marginLeft:'-60vmin',width: '55vmin'}}>
 
                    
-                        <a className='para-two-bot-head' herf='https://open.spotify.com/playlist/35579dVKvh2Cue5lyXAJso?si=e0abd8eb8aa24943' className='mobile-hide' id='hyper'>Music Required</a>
+                        <a className='para-two-bot-head' herf='https://open.spotify.com/playlist/35579dVKvh2Cue5lyXAJso?si=e0abd8eb8aa24943' style={{ fontSize: "2.8vmin"}} className='mobile-hide' id='hyper'>Music Required</a>
                     
 
                     </div>
@@ -327,10 +327,10 @@ var rellax = new Rellax('.rellax');
                     <br />
                     <br />
                     <br />
-                    <div  id='hyper-div' style={{ fontSize: "50px",marginTop: '-30vmin', marginLeft:'-60vmin',width: '55vmin'}}>
+                    <div  id='hyper-div' style={{ fontSize: "",marginTop: '-30vmin', marginLeft:'-60vmin',width: '55vmin'}}>
 
                    
-                        <a herf='https://open.spotify.com/playlist/35579dVKvh2Cue5lyXAJso?si=e0abd8eb8aa24943' className='mobile-hide' id='hyper'>Web Dev</a>
+                        <a herf='https://open.spotify.com/playlist/35579dVKvh2Cue5lyXAJso?si=e0abd8eb8aa24943' style={{ fontSize: "2.8vmin"}} className='mobile-hide' id='hyper'>Web Dev</a>
                     
 
                     </div>
@@ -342,7 +342,7 @@ var rellax = new Rellax('.rellax');
 
                 <ScrollPage page={7}>
                     <Animator animation={FadeUp}>
-                    <p id='para-two' className='para-two-bot' style={{marginTop: '-10vmin', marginLeft:'-60vmin',width: '55vmin', zIndex:'-9'}} >As you would have noticed from the above story, that I'm a professional web developer, I have in depth knowledge of React, Express</p>
+                    <p id='para-two' className='para-two-bot' style={{marginTop: '-10vmin', marginLeft:'-60vmin',width: '55vmin', zIndex:'-9', fontSize: "1.8vmin"}} >As you would have noticed from the above story, that I'm a professional web developer, I have in depth knowledge of React, Express</p>
                     </Animator>
                 </ScrollPage>
 
