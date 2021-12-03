@@ -137,7 +137,7 @@ var rellax = new Rellax('.rellax');
                 <ScrollPage page={5}>
                     <Animator animation={FadeUp}>
                     {/* <span style={{ fontSize: "40px" }}>I'm FadeUp</span> */}
-                    <span style={{ fontSize: "50px",marginTop: '0px', marginLeft:'4vmin',width: '55vmin'}} >
+                    <span style={{ fontSize: "50px",marginTop: '20vmin', marginLeft:'4vmin',width: '55vmin'}} >
                         <p id='text-on-phone'>Want to dive in? if yes scroll down</p>
                     </span>
                     <img id='main-images' style={{marginTop: '0vmin', marginLeft:'105vmin',width: '55vmin'}} src={clound2} />
