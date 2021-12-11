@@ -33,13 +33,13 @@ var rellax = new Rellax('.rellax');
 
       <div className='about-me'>
                         {/* <h2 className='not-me' id='about'>About Me</h2> */}
-                        <p className='description'>Creative Fullstack Developer - Designer<br/>Learning German right now.<br /> Strong in design and integration with intuitive problem-solving skills. Proficient in Java. Passionate about implementing and launching new projects. Seeking an opportunity in an esteemed organization with increasing potential for growth and development.</p>
+                        <p className='description'>I'm Swapnil <br />Creative Fullstack Developer - Designer<br/>Learning German right now.<br /> Strong in design and integration with intuitive problem-solving skills. Proficient in Java. Passionate about implementing and launching new projects. Seeking an opportunity in an esteemed organization with increasing potential for growth and development.</p>
                     </div>
 
       <h1 style={{color:'white', marginTop:'70vmin', position:"absolute"}} id='projects'>.</h1>
       <h1 style={{color:'white', marginTop:'1090vmin', position:"absolute"}} id='contact'>.</h1>
       <h1 style={{color:'white', marginTop:'155vmin', position:"absolute"}} id='skills'>.</h1>
-      <h1 style={{color:'white', marginTop:'495vmin', position:"absolute"}} id='under-water-dive'>.</h1>
+      <h1 style={{color:'white', marginTop:'595vmin', position:"absolute"}} id='under-water-dive'>.</h1>
 
 
       <div className='image-lobby'>

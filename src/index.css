@@ -177,7 +177,7 @@ li a {
     font-size: 70vmin;
     margin-left: -7vmin  !important;
     margin-top: -40vmin !important;
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+    font-family: 'Raleway', sans-serif;
   }
 
   .site-footer
@@ -295,12 +295,12 @@ li a {
 #para-one {
   width: 60vmin;
   font-size: 1.6vmin;
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+  font-family: 'Raleway', sans-serif;
 }
 
 #para-two {
   width: 60vmin;
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+  font-family: 'Raleway', sans-serif;
 }
 
 
@@ -333,13 +333,13 @@ li a {
 
   #para-one {
     width: 60vmin;
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+    font-family: 'Raleway', sans-serif;
     margin-left: 10vmin
   }
 
   #para-two {
     width: 50vmin;
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+    font-family: 'Raleway', sans-serif;
     margin-left: vmin
   }
 
@@ -456,7 +456,7 @@ z-index: 19;
   #para-one {
     width: 80vmin;
     font-size: 2vmin;
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+    font-family: 'Raleway', sans-serif;
   }
 
   .para-two-bot-head {
@@ -464,7 +464,7 @@ z-index: 19;
     font-size: 4vmin ;
     margin-left: 47vmin  !important;
     margin-top: 90vmin !important;
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+    font-family: 'Raleway', sans-serif;
   }
 
   .para-two-bot {
@@ -472,7 +472,7 @@ z-index: 19;
     font-size: 4vmin ;
     margin-left: -7vmin  !important;
     margin-top: -40vmin !important;
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+    font-family: 'Raleway', sans-serif;
   }
 
   #text-on-phone {
