@@ -11,6 +11,8 @@ import plane2 from './plane2.png';
 import street from './street.png';
 import bee from './bee.png';
 import Form from "./form";
+import zip from './swapnilsCADwork.zip'
+
 
 import {React, useEffect, setState, useState} from 'react'
 
@@ -89,16 +91,53 @@ var rellax = new Rellax('.rellax');
                 </ScrollPage>
 
                 <ScrollPage page={1} className='mobile-hide'>
-                    <Animator animation={batch(Fade(), Sticky(), MoveOut(-6100, -90))}>
+                    <Animator animation={batch(Fade(), Sticky(), MoveOut(-4000, -90))}>
                     
-                    <img id='main-images' className='mobile-hide' style={{marginTop: '70vmin', marginLeft:'435vmin',width: '55vmin', opacity:'0.4'}} src={plane2} />
+                    <img id='main-images' className='' style={{marginTop: '70vmin', marginLeft:'435vmin',width: '55vmin', opacity:'0.4'}} src={plane2} />
                     </Animator>
                 </ScrollPage> 
 
-                <ScrollPage page={1} className='mobile-hide'>
-                    <Animator animation={batch(Fade(), Sticky(), MoveOut(-100, -10))}>
+                <ScrollPage page={1} className=''>
+                    <Animator animation={batch(Fade(), Sticky(), MoveOut(-800, -10))}>
                         
-                             <h1 id='mobile-hide' className="about-class" style={{fontSize:'9vmin', marginTop:"-20vmin", marginLeft:"10vmin"}}>About</h1>
+                             <h1 id='' className="about-class" style={{fontSize:'11vmin',width:"100vmin", marginTop:"40vmin", marginLeft:"60vmin"}}>About Me</h1>
+                    
+                    </Animator>
+                </ScrollPage> 
+
+                <ScrollPage page={6}>
+                    <Animator animation={batch(Fade(), Sticky(), MoveOut(-1000, 0))}>
+                        
+            
+                   
+                    <h1 id='' className='' style={{marginTop: '-7vmin', marginLeft:'45vmin',width: '760vmin', zIndex:'', paddingBottom:'9vmin' , fontSize:'9.6vmin'}} >The frame is the skeleton of any vehicle which provide support for all system and sub-systems and makes the vehicle ready to drive. Proper vehicle frame construction is the most important part of the project. For high speed operation and to withstand high load and stress tolerance the material needed to be strong while being less in weight. Besides the engine, a large portion of the vehicle weight is accounted for in the frame.</h1>
+
+                    </Animator>
+                </ScrollPage> 
+                <ScrollPage page={6} className='mobile-hide'>
+                    <Animator animation={batch(Fade(), Sticky(), MoveOut(-100, 0))}>
+                        
+                             <h1 id='mobile-hide' style={{fontSize:'6vmin', marginTop:"30vmin", marginLeft:"-50vmin", lineHeight:'40vmin'}}>Designs and Renders</h1>
+                    
+                    </Animator>
+                </ScrollPage> 
+
+
+                <ScrollPage page={6} className='mobile-hide'>
+                    <Animator animation={batch(Fade(), Sticky(), MoveOut(-100, 0))}>
+                        
+                        
+                        {/* <a href={zip} style={{marginTop:}} download="swapnil-cads.zip" id=""><button class="button-2" role="button">Download</button></a> */}
+                        
+            
+                   
+                    <li style={{listStyle:'none',marginTop: '30vmin', marginLeft:'110vmin',width: '85vmin'}}>
+                    <a href={zip} style={{}} download="swapnil-cads.zip"><div class="download windows">
+                        <i class="fa fa fa-windows fa-3x"></i>
+                        <span class="df">Download Files</span>
+                        </div></a>
+                    </li>
+                    
                     
                     </Animator>
                 </ScrollPage> 
@@ -148,7 +187,7 @@ var rellax = new Rellax('.rellax');
                     </Animator>
                 </ScrollPage>
 
-                <ScrollPage page={10}>
+                <ScrollPage page={13}>
                     <Animator animation={FadeUp}>
                     {/* <span style={{ fontSize: "40px" }}>I'm FadeUp</span> */}
                     <Form />
@@ -158,12 +197,11 @@ var rellax = new Rellax('.rellax');
                     </Animator>
                 </ScrollPage>
 
-
-                <ScrollPage page={12}>
+                <ScrollPage page={12} id='mobile-hide'>
                     <Animator animation={FadeUp}>
                     {/* <span style={{ fontSize: "40px" }}>I'm FadeUp</span> */}
-                    <span style={{ fontSize: "50px",marginTop: '0px', marginLeft:'4vmin',width: '55vmin'}} id=''>
-                    there is no end, this story will be updated
+                    <span style={{ fontSize: "50px",marginTop: '0px', marginLeft:'-80vmin',width: '55vmin'}} id=''>
+                    contact.
                     </span>
                    
 
@@ -172,7 +210,20 @@ var rellax = new Rellax('.rellax');
                 </ScrollPage>
 
 
-                <ScrollPage page={8}>
+                <ScrollPage page={15}>
+                    <Animator animation={FadeUp}>
+                    {/* <span style={{ fontSize: "40px" }}>I'm FadeUp</span> */}
+                    <span style={{ fontSize: "50px",marginTop: '0px', marginLeft:'4vmin',width: '55vmin'}} id=''>
+                    Thanks for visiting, Peace
+                    </span>
+                   
+
+
+                    </Animator>
+                </ScrollPage>
+
+
+                <ScrollPage page={9}>
                     <Animator animation={FadeUp}>
                     {/* <span style={{ fontSize: "40px" }}>I'm FadeUp</span> */}
                     <span style={{ fontSize: "50px",marginTop: '0px', marginLeft:'4vmin',width: '55vmin'}}>
@@ -185,7 +236,7 @@ var rellax = new Rellax('.rellax');
                     </Animator>
                 </ScrollPage>
 
-                <ScrollPage page={8}>
+                <ScrollPage page={9}>
                     <Animator animation={FadeUp}>
                     <div class="ocean">
                         <div class="bubble bubble--1"></div>
@@ -205,7 +256,7 @@ var rellax = new Rellax('.rellax');
                     </Animator>
                 </ScrollPage>
 
-                <ScrollPage page={12}>
+                <ScrollPage page={15}>
                     <Animator animation={FadeUp}>
                     <div class="ocean">
                         <div class="bubble bubble--1"></div>
@@ -227,7 +278,7 @@ var rellax = new Rellax('.rellax');
 
                 
 
-            <ScrollPage page={7}>
+            <ScrollPage page={8}>
                     <Animator animation={FadeUp}>
                     <img id='main-images' style={{marginTop: '90vmin', marginLeft:'-50vmin',width: '250%'}} className='mobile-hide' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg' />
                    
@@ -235,7 +286,7 @@ var rellax = new Rellax('.rellax');
                     </Animator>
                 </ScrollPage>
 
-                <ScrollPage page={7}>
+                <ScrollPage page={8}>
                 <Animator animation={batch(Fade(), Sticky(), MoveOut(900, -70))}>
                     <img id='main-images' style={{marginTop: '55vmin', marginLeft:'-50vmin',width: '60vmin'}} className='mobile-hide' src={boat} />
                    
@@ -245,14 +296,14 @@ var rellax = new Rellax('.rellax');
                     </Animator>
                 </ScrollPage>
 
-                <ScrollPage page={7}>
+                <ScrollPage page={8}>
                 <Animator animation={batch(Fade(), Sticky(), MoveOut(-900, 0))}>
                                       <img id='main-images' style={{marginTop: '-20vmin', marginLeft:'55vmin',width: '55vmin', zIndex:'-9'}} src={clound3} />
                     
                     </Animator>
                 </ScrollPage>
 
-                <ScrollPage page={7}>
+                <ScrollPage page={8}>
                 <Animator animation={batch(Fade(), Sticky(), MoveOut(100, 0))}>
                     <img id='main-images' style={{marginTop: '90vmin', marginLeft:'-90vmin',width: '340%', zIndex:'-9'}} className='mobile-hide' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg' />
                    
@@ -260,7 +311,7 @@ var rellax = new Rellax('.rellax');
                     </Animator>
                 </ScrollPage>
 
-                <ScrollPage page={9}>
+                <ScrollPage page={10}>
                     <Animator animation={FadeUp}>
                    
 
@@ -269,7 +320,7 @@ var rellax = new Rellax('.rellax');
                     </Animator>
             </ScrollPage>
 
-                <ScrollPage page={9}>
+                <ScrollPage page={10}>
                     <Animator animation={FadeUp}>
                    
                     <div class="ocean">
@@ -289,7 +340,7 @@ var rellax = new Rellax('.rellax');
                     </Animator>
                 </ScrollPage>
 
-                <ScrollPage page={9}>
+                <ScrollPage page={10}>
                     <Animator animation={FadeUp}>
                     {/* <span style={{ fontSize: "40px" }}>I'm FadeUp</span> */}
                     <br />
@@ -308,7 +359,7 @@ var rellax = new Rellax('.rellax');
                     </Animator>
                 </ScrollPage>
 
-                <ScrollPage page={9}>
+                <ScrollPage page={10}>
                     <Animator animation={FadeUp}>
                     <p id='para-two' className='para-two-bot' style={{marginTop: '-10vmin', marginLeft:'-60vmin',width: '55vmin', zIndex:'-9'}} >After Dark By Mr. Kitty,
                     My Heart is buried in Vanice By Ricky Mongomery,
@@ -321,7 +372,7 @@ var rellax = new Rellax('.rellax');
 
 
 
-                <ScrollPage page={7}>
+                <ScrollPage page={8}>
                     <Animator animation={FadeUp}>
                     {/* <span style={{ fontSize: "40px" }}>I'm FadeUp</span> */}
                     <br />
@@ -340,7 +391,7 @@ var rellax = new Rellax('.rellax');
                     </Animator>
                 </ScrollPage>
 
-                <ScrollPage page={7}>
+                <ScrollPage page={8}>
                     <Animator animation={FadeUp}>
                     <p id='para-two' className='para-two-bot' style={{marginTop: '-10vmin', marginLeft:'-60vmin',width: '55vmin', zIndex:'-9', fontSize: "1.8vmin"}} >As you would have noticed from the above story, that I'm a professional web developer, I have in depth knowledge of React, Express</p>
                     </Animator>

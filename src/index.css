@@ -172,6 +172,14 @@ li a {
 }
 @media (max-width:767px)
 {
+  .para-two-bot {
+    width: 100% !important;
+    font-size: 70vmin;
+    margin-left: -7vmin  !important;
+    margin-top: -40vmin !important;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+  }
+
   .site-footer
   {
     padding-bottom:0
@@ -295,8 +303,17 @@ li a {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
 }
 
+
+
+
 @media (min-width:767px)
 {
+
+  /* .about-class {
+    font-size:9vmin !important;
+   margin-top: -20vmin !important;
+   margin-left: 10vmin !important;
+  } */
 
   .about-me {
     display: block;
@@ -459,8 +476,9 @@ z-index: 19;
   }
 
   #text-on-phone {
-    margin-left: 59vmin;
+    margin-left: 53vmin;
     font-size: 3vmin;
+    width: 100%;
   }
 
   .phone-image-two {
@@ -619,3 +637,40 @@ line {
 
 
 
+
+
+.download {
+  width: 32vmin;
+  height: 14vmin;
+  background: black;
+  float: left;
+  border-radius: 2vmin;
+  position: relative;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+
+.download > .fa {
+  color: #fff;
+  position: absolute;
+  top: 20vmin;
+  transform: translateY(-50%);
+}
+
+.df,
+.dfn {
+  position: absolute;
+  left: 4.5vmin;
+}
+
+.df {
+  top: 1.5vmin;
+  font-size: 3vmin;
+}
+
+
+.download:hover {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}

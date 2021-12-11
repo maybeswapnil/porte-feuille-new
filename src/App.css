@@ -122,12 +122,21 @@ h1 {
 }
 
 .about-class {
-  margin-left: 7vmin !important;
+  margin-left: 17vmin !important;
+}
+
+#about {
+  margin-top: 18vmin !important;
 }
 
 @media (min-width:767px)
 {
+  #about {
+    margin-top: 42vmin !important;
+  }
+
   .about-me {
+   
     margin-top: 80vmin;
     margin-left: 40vmin;
     padding-left: -0vmin;
@@ -147,7 +156,9 @@ h1 {
 }
 
 .about-class {
-  margin-left: -60vmin !important;
+  width: 90vmin !important;
+  line-height: 10vmin;
+  margin-left: 32vmin !important;
 }
 
 .not-me {

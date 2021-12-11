@@ -29,7 +29,7 @@ var rellax = new Rellax('.rellax');
       </div>
       
 
-      <h1 style={{color:'white', marginTop:'35vmin', position:"absolute"}} id='about'>.</h1>
+      <h1 style={{color:'white', marginTop:'42vmin', position:"absolute"}} id='about'>.</h1>
 
       <div className='about-me'>
                         {/* <h2 className='not-me' id='about'>About Me</h2> */}
@@ -37,7 +37,7 @@ var rellax = new Rellax('.rellax');
                     </div>
 
       <h1 style={{color:'white', marginTop:'70vmin', position:"absolute"}} id='projects'>.</h1>
-      <h1 style={{color:'white', marginTop:'810vmin', position:"absolute"}} id='contact'>.</h1>
+      <h1 style={{color:'white', marginTop:'1090vmin', position:"absolute"}} id='contact'>.</h1>
       <h1 style={{color:'white', marginTop:'155vmin', position:"absolute"}} id='skills'>.</h1>
       <h1 style={{color:'white', marginTop:'495vmin', position:"absolute"}} id='under-water-dive'>.</h1>
 
