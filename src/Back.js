@@ -73,13 +73,13 @@ var rellax = new Rellax('.rellax');
                 <ScrollPage page={0}>
                     <Animator animation={batch(Fade(), Sticky(), MoveOut(-900, 0))}>
                     {/* <span style={{ fontSize: "30px" }}>Let't me show you scroll animation</span> */}
-                    <img id='main-images' style={{marginTop: '150vmin', marginLeft:'-90vmin'}}  className='phone-image' src='https://images.pexels.com/photos/9832870/pexels-photo-9832870.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260' />
+                    <img id='main-images' style={{marginTop: '150vmin', marginLeft:'-90vmin'}}  className='phone-image' src='https://images.pexels.com/photos/3704162/pexels-photo-3704162.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' />
                     </Animator>
                 </ScrollPage>
                 <ScrollPage page={0}>
                     <Animator animation={batch(Fade(), Sticky(), MoveOut(0, 900))}>
                     {/* <span style={{ fontSize: "30px" }}>Let't me show you scroll animation</span> */}
-                    <img id='main-images' style={{marginTop: '50vmin', marginLeft:'130vmin'}} className='phone-image-two' src='https://images.pexels.com/photos/9698084/pexels-photo-9698084.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' />
+                    <img id='main-images' style={{marginTop: '50vmin', marginLeft:'130vmin'}} className='phone-image-two' src='https://images.pexels.com/photos/4261203/pexels-photo-4261203.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' />
                     </Animator>
                 </ScrollPage>
                
