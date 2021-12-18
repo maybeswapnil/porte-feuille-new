@@ -272,6 +272,7 @@ li a {
 
 .image-file {
   width: 50vmin;
+  margin-right: 0vmin;
 }
 
 .image-file-two {
@@ -283,7 +284,7 @@ li a {
   padding-left: 10vmin;
   height: auto;
   margin-top: 90vmin;
-
+  display: grid;
 }
 
 .image-lobby-two {
@@ -303,7 +304,78 @@ li a {
   font-family: 'Raleway', sans-serif;
 }
 
+#grid-box {
+  background-image: url(./gear.png);
+  background-size: 8vmin;
+  background-repeat: no-repeat;
+  background-position-x: 69vmin;
+  background-position-y: 5vmin;
+  display: grid;
+  background-color: #783F8E;
+  
+  padding: 4vmin;
+  width: 75vmin;
+  border-radius: 1vmin;
+}
 
+#grid-box-three {
+  background-size: 10vmin;
+  background-repeat: no-repeat;
+  background-position-x: 50vmin;
+  background-position-y: 3vmin;
+  display: grid;
+  background-color: #597081;
+  
+  padding: 4vmin;
+  width: 75vmin;
+  border-radius: 1vmin;
+}
+
+#grid-box-two {
+  background-size: 10vmin;
+  background-repeat: no-repeat;
+  background-position-x: 50vmin;
+  background-position-y: 3vmin;
+  display: grid;
+  background-color: #4A4063;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  padding: 4vmin;
+  width: 75vmin;
+  border-radius: 1vmin;
+  -webkit-animation: floatBubble 1s  normal ease-out;
+  animation: floatBubble 4s  normal ease-out;
+}
+
+
+.image-lobby {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+
+}
+
+#para-one-grid {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+@-webkit-keyframes floatBubble {
+  0% {
+      margin-top:500px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+@keyframes floatBubble {
+  0% {
+    margin-top:500px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
 
 
 @media (min-width:767px)
@@ -318,10 +390,14 @@ li a {
   .about-me {
     display: block;
   }
+
+
   .image-lobby {
-    padding-left: 35vmin;
-    height: auto;
-    display: flex;
+    padding-left: 7%;
+    width: 6vmin;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
 
   }
 
@@ -337,10 +413,57 @@ li a {
     margin-left: 10vmin
   }
 
+  #para-one-grid {
+    width: 60vmin;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+  }
+
+  #grid-box {
+    background-image: url(./gear.png);
+    background-size: 6vmin;
+    background-repeat: no-repeat;
+    background-position-x: 55vmin;
+    background-position-y: 3vmin;
+    display: grid;
+    background-color: #783F8E;
+    
+    padding: 2vmin;
+    width: 60vmin;
+    border-radius: 1vmin;
+  }
+
+  #grid-box-three {
+    background-size: 10vmin;
+    background-repeat: no-repeat;
+    background-position-x: 50vmin;
+    background-position-y: 3vmin;
+    display: grid;
+    background-color: #597081;
+    
+    padding: 2vmin;
+    width: 60vmin;
+    border-radius: 1vmin;
+  }
+
+  #grid-box-two {
+    background-size: 10vmin;
+    background-repeat: no-repeat;
+    background-position-x: 50vmin;
+    background-position-y: 3vmin;
+    display: grid;
+    background-color: #4A4063;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 2vmin;
+    width: 60vmin;
+    border-radius: 1vmin;
+  }
+
+
   #para-two {
     width: 50vmin;
     font-family: 'Raleway', sans-serif;
-    margin-left: vmin
   }
 
   .image-file-two {
@@ -432,6 +555,7 @@ z-index: 19;
   }
   h1 {
     font-size:24px;
+    
   }
   #mobile-hide {
       display: none;

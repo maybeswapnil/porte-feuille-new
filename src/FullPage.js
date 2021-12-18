@@ -43,25 +43,48 @@ var rellax = new Rellax('.rellax');
 
 
       <div className='image-lobby'>
-        <img className='image-file' id='mobile-hide' src='https://images.pexels.com/photos/7367207/pexels-photo-7367207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' />
-        <div>
-        <h4 id='para-one'>Projects</h4>
+        {/* <img className='image-file' id='mobile-hide' src='https://images.pexels.com/photos/7367207/pexels-photo-7367207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' /> */}
+        <div id='grid-box'>
+        <h4 id='para-one-grid'>Projects</h4>
            
-            <h4 id='para-one'>Weather Information Extractor (API):</h4>
-            <p id='para-one'>Retrieves raw data from an external API, validates and formats the data in the desired client requirement. Used Stripe to manage the transaction and validate the payment information. Payment through stripes creates a token that can be used to access the API by passing it in header. All the generated API tokens were hashed and stored in MongoDB. (Express, MongoDB, Stripe).</p>
+            <h4 id='para-one-grid'>Weather Information Extractor (API):</h4>
+            <p id='para-one-grid'>Retrieves raw data from an external API, validates and formats the data in the desired client requirement. Used Stripe to manage the transaction and 
+            validate the payment information. Payment through stripes creates a token that can be used to access the API by passing it in header. All the generated API tokens were hashed 
+            and stored in MongoDB. (Express, MongoDB, Stripe).</p>
 
-            <h4 id='para-one'>Multiplayer Interface (Web Page):</h4>
-            <p id='para-one'>
+            <h4 id='para-one-grid'>Multiplayer Interface (Web Page):</h4>
+            <p id='para-one-grid'>
                   It is a simple multiplayer Interface uses React JS as Front End. Used Framer-Motion for animating the page. (React JS/Framer-Motion)
                   Restful API made using Spring Boot and Hibernate ORM for data mapping, provides a safe authentication to the app and is capable of running on multiple sessions. 
                   Deployed on AWS EC2 instance. (Spring: 5.3.6, Java 8, MySQL) </p>
-            <h4 id='para-one'>Lens 	4.38mm ƒ/1.7 0.000937s ISO 88</h4>
-            <h4 id='para-one'>Size 	4.18 MB</h4>
-            <h4 id='para-one'>Resolution 	3024px x 4032px</h4>
-            <h4 id='para-one'>Camera Pixel 4a</h4>
-            <h4 id='para-one'>Software 	Snapseed 2.19.280302127</h4>
-            <h4 id='para-one'>Taken at 	March 29, 2021 5:29 pm</h4>             
+                  </div><div id='grid-box-two'>
+                  <h4 id='para-one-grid'>Professional Summary</h4>
+
+                  <p id='para-one-grid'>Sigle handedly managed multiple projects. I contributed to automating database failovers that ensure minimal impact on business-critical API transactions. Besides, I volunteered to tap my web development expertise to develop a portfolio dashboard for internal team and an internal platform for generating graphs and performance results.</p>
+                  <p id='para-one-grid'>The corporate experience helped me better understand the need and skill of translating real-time problems into business challenges that are strongly coupled with technology, as these applications helped decrease the total cost to the project team.</p>
+                  <p id='para-one-grid'>The corporate experience helped me better understand the need and skill of translating real-time problems into business challenges that are strongly coupled with technology, as these applications helped decrease the total cost to the project team.</p>
+
+                 
+                          <h4 id='para-one-grid'>Skills</h4>
+                                      <p id='para-one-grid'>Databases: MySQL, MongoDB
+                          Other Frameworks: Spring (Boot, REST, MVC, JPA) 
+                          Hands-on Experience: Git, AWS (EC2, RDS, S3), GitHub, Netlify
+                          Programming Languages: Java (Intermediate), JavaScript (Intermediate)
+                          RDMS Development and SQL 
+                          API Design and Development: Express, Node
+                          JS Frameworks: React, Framer-Motion (Animation).</p>        
         </div>
+
+        <div id='grid-box-three'>
+        <h4 id='para-one-grid'>Certifications</h4>
+                      <p id='para-one-grid'>
+                          Responsive Web Design (freeCodeCamp)- Worked with React JS, D3JS to implement dynamic UI
+                          Java Certification (HackerRank) 
+                          JavaScript Algorithms and Data Structures (freeCodeCamp) 
+                          Git (Percipio).</p>
+
+
+                  </div>
         
       </div>
 <br/>
@@ -70,7 +93,7 @@ var rellax = new Rellax('.rellax');
 <br/>
 <br/>
 <br/>
-      <div className='image-lobby-two'>
+      {/* <div className='image-lobby-two'>
 
         <div>
         <h4 id='para-one'>Professional Summary</h4>
@@ -105,7 +128,7 @@ var rellax = new Rellax('.rellax');
  
 
 
-      </div>
+      </div> */}
     </div>
   );
 }
